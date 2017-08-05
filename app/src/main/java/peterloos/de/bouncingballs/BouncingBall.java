@@ -1,16 +1,16 @@
 package peterloos.de.bouncingballs;
 
-import android.graphics.Color;
-import android.graphics.PointF;
-import android.graphics.RectF;
+        import android.graphics.Color;
+        import android.graphics.PointF;
+        import android.graphics.RectF;
 
-import java.util.ArrayList;
-import java.util.Random;
+        import java.util.ArrayList;
+        import java.util.Random;
 
-import peterloos.de.utils.GeoVector;
+        import peterloos.de.utils.GeoVector;
 
 /**
- * Created by loospete on 01.08.2017.
+ * Created by Peter on 01.08.2017.
  */
 
 public class BouncingBall {
@@ -98,12 +98,12 @@ public class BouncingBall {
             if (this == balls.get(i))
                 continue;
 
-            //   GeoVector difference = GeoVector.diff(this.getCenter(), balls.get(i).getCenter());
+            // GeoVector difference = GeoVector.diff(this.getCenter(), balls.get(i).getCenter());
             GeoVector.diff(this.getCenter(), balls.get(i).getCenter(), this.difference);
 
 
-            if (difference.length() <= (Globals.getBallRadius() * 2)) {
-                this.getDirection().add(difference);
+            if (this.difference.length() <= (Globals.getBallRadius() * 2)) {
+                this.getDirection().add(this.difference);
                 this.direction.normalize();
                 this.direction.scale(Globals.BallVelocity);
 

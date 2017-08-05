@@ -3,7 +3,7 @@ package peterloos.de.utils;
 import android.graphics.PointF;
 
 /**
- * Created by loospete on 01.08.2017.
+ * Created by Peter on 01.08.2017.
  */
 
 public class GeoVector {

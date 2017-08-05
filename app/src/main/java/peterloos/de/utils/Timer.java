@@ -1,7 +1,7 @@
 package peterloos.de.utils;
 
 /**
- * Created by loospete on 01.08.2017.
+ * Created by Peter on 01.08.2017.
  */
 
 public class Timer {

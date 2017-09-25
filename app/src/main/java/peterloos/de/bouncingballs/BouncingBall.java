@@ -1,13 +1,13 @@
 package peterloos.de.bouncingballs;
 
-        import android.graphics.Color;
-        import android.graphics.PointF;
-        import android.graphics.RectF;
+import android.graphics.Color;
+import android.graphics.PointF;
+import android.graphics.RectF;
 
-        import java.util.ArrayList;
-        import java.util.Random;
+import java.util.ArrayList;
+import java.util.Random;
 
-        import peterloos.de.utils.GeoVector;
+import peterloos.de.utils.GeoVector;
 
 /**
  * Created by Peter on 01.08.2017.
